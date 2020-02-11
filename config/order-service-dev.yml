@@ -9,9 +9,6 @@ spring:
     port: 5672
     username: admin
     password: admin
-  instance:
-    prefer-ip-address: true #显示IP地址
-    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port} #显示格式 
     
 server:
   port: 8201
